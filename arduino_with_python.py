@@ -10,3 +10,11 @@ while(1==1):
         mydata=arduino_Serial_Data.readlines()
         distance=float(arduino_Serial_Data)
 
+
+for i in range(100):
+    if i%2==0:
+        print("even")
+
+    else: 
+        print("odd")              
+
